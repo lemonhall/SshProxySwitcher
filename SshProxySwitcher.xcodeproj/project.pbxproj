@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		315DBACF1D96207600E9E5A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315DBACE1D96207600E9E5A9 /* AppDelegate.swift */; };
+		315DBAD11D96207600E9E5A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315DBAD01D96207600E9E5A9 /* Assets.xcassets */; };
+		315DBAD41D96207600E9E5A9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 315DBAD21D96207600E9E5A9 /* MainMenu.xib */; };
+		315DBADF1D96207600E9E5A9 /* SshProxySwitcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315DBADE1D96207600E9E5A9 /* SshProxySwitcherTests.swift */; };
+		315DBAEA1D96207600E9E5A9 /* SshProxySwitcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315DBAE91D96207600E9E5A9 /* SshProxySwitcherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		315DBADB1D96207600E9E5A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 315DBAC31D96207600E9E5A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 315DBACA1D96207600E9E5A9;
+			remoteInfo = SshProxySwitcher;
+		};
+		315DBAE61D96207600E9E5A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 315DBAC31D96207600E9E5A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 315DBACA1D96207600E9E5A9;
+			remoteInfo = SshProxySwitcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		315DBACB1D96207600E9E5A9 /* SshProxySwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SshProxySwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		315DBACE1D96207600E9E5A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		315DBAD01D96207600E9E5A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		315DBAD31D96207600E9E5A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		315DBAD51D96207600E9E5A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315DBADA1D96207600E9E5A9 /* SshProxySwitcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SshProxySwitcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		315DBADE1D96207600E9E5A9 /* SshProxySwitcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SshProxySwitcherTests.swift; sourceTree = "<group>"; };
+		315DBAE01D96207600E9E5A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315DBAE51D96207600E9E5A9 /* SshProxySwitcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SshProxySwitcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		315DBAE91D96207600E9E5A9 /* SshProxySwitcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SshProxySwitcherUITests.swift; sourceTree = "<group>"; };
+		315DBAEB1D96207600E9E5A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		315DBAC81D96207600E9E5A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315DBAD71D96207600E9E5A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315DBAE21D96207600E9E5A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		315DBAC21D96207600E9E5A9 = {
+			isa = PBXGroup;
+			children = (
+				315DBACD1D96207600E9E5A9 /* SshProxySwitcher */,
+				315DBADD1D96207600E9E5A9 /* SshProxySwitcherTests */,
+				315DBAE81D96207600E9E5A9 /* SshProxySwitcherUITests */,
+				315DBACC1D96207600E9E5A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		315DBACC1D96207600E9E5A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				315DBACB1D96207600E9E5A9 /* SshProxySwitcher.app */,
+				315DBADA1D96207600E9E5A9 /* SshProxySwitcherTests.xctest */,
+				315DBAE51D96207600E9E5A9 /* SshProxySwitcherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		315DBACD1D96207600E9E5A9 /* SshProxySwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				315DBACE1D96207600E9E5A9 /* AppDelegate.swift */,
+				315DBAD01D96207600E9E5A9 /* Assets.xcassets */,
+				315DBAD21D96207600E9E5A9 /* MainMenu.xib */,
+				315DBAD51D96207600E9E5A9 /* Info.plist */,
+			);
+			path = SshProxySwitcher;
+			sourceTree = "<group>";
+		};
+		315DBADD1D96207600E9E5A9 /* SshProxySwitcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				315DBADE1D96207600E9E5A9 /* SshProxySwitcherTests.swift */,
+				315DBAE01D96207600E9E5A9 /* Info.plist */,
+			);
+			path = SshProxySwitcherTests;
+			sourceTree = "<group>";
+		};
+		315DBAE81D96207600E9E5A9 /* SshProxySwitcherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				315DBAE91D96207600E9E5A9 /* SshProxySwitcherUITests.swift */,
+				315DBAEB1D96207600E9E5A9 /* Info.plist */,
+			);
+			path = SshProxySwitcherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		315DBACA1D96207600E9E5A9 /* SshProxySwitcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315DBAEE1D96207600E9E5A9 /* Build configuration list for PBXNativeTarget "SshProxySwitcher" */;
+			buildPhases = (
+				315DBAC71D96207600E9E5A9 /* Sources */,
+				315DBAC81D96207600E9E5A9 /* Frameworks */,
+				315DBAC91D96207600E9E5A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SshProxySwitcher;
+			productName = SshProxySwitcher;
+			productReference = 315DBACB1D96207600E9E5A9 /* SshProxySwitcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		315DBAD91D96207600E9E5A9 /* SshProxySwitcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315DBAF11D96207600E9E5A9 /* Build configuration list for PBXNativeTarget "SshProxySwitcherTests" */;
+			buildPhases = (
+				315DBAD61D96207600E9E5A9 /* Sources */,
+				315DBAD71D96207600E9E5A9 /* Frameworks */,
+				315DBAD81D96207600E9E5A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				315DBADC1D96207600E9E5A9 /* PBXTargetDependency */,
+			);
+			name = SshProxySwitcherTests;
+			productName = SshProxySwitcherTests;
+			productReference = 315DBADA1D96207600E9E5A9 /* SshProxySwitcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		315DBAE41D96207600E9E5A9 /* SshProxySwitcherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315DBAF41D96207600E9E5A9 /* Build configuration list for PBXNativeTarget "SshProxySwitcherUITests" */;
+			buildPhases = (
+				315DBAE11D96207600E9E5A9 /* Sources */,
+				315DBAE21D96207600E9E5A9 /* Frameworks */,
+				315DBAE31D96207600E9E5A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				315DBAE71D96207600E9E5A9 /* PBXTargetDependency */,
+			);
+			name = SshProxySwitcherUITests;
+			productName = SshProxySwitcherUITests;
+			productReference = 315DBAE51D96207600E9E5A9 /* SshProxySwitcherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		315DBAC31D96207600E9E5A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Hall Lemon";
+				TargetAttributes = {
+					315DBACA1D96207600E9E5A9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					315DBAD91D96207600E9E5A9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 315DBACA1D96207600E9E5A9;
+					};
+					315DBAE41D96207600E9E5A9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 315DBACA1D96207600E9E5A9;
+					};
+				};
+			};
+			buildConfigurationList = 315DBAC61D96207600E9E5A9 /* Build configuration list for PBXProject "SshProxySwitcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 315DBAC21D96207600E9E5A9;
+			productRefGroup = 315DBACC1D96207600E9E5A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				315DBACA1D96207600E9E5A9 /* SshProxySwitcher */,
+				315DBAD91D96207600E9E5A9 /* SshProxySwitcherTests */,
+				315DBAE41D96207600E9E5A9 /* SshProxySwitcherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		315DBAC91D96207600E9E5A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315DBAD11D96207600E9E5A9 /* Assets.xcassets in Resources */,
+				315DBAD41D96207600E9E5A9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315DBAD81D96207600E9E5A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315DBAE31D96207600E9E5A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		315DBAC71D96207600E9E5A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315DBACF1D96207600E9E5A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315DBAD61D96207600E9E5A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315DBADF1D96207600E9E5A9 /* SshProxySwitcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315DBAE11D96207600E9E5A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315DBAEA1D96207600E9E5A9 /* SshProxySwitcherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		315DBADC1D96207600E9E5A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 315DBACA1D96207600E9E5A9 /* SshProxySwitcher */;
+			targetProxy = 315DBADB1D96207600E9E5A9 /* PBXContainerItemProxy */;
+		};
+		315DBAE71D96207600E9E5A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 315DBACA1D96207600E9E5A9 /* SshProxySwitcher */;
+			targetProxy = 315DBAE61D96207600E9E5A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		315DBAD21D96207600E9E5A9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				315DBAD31D96207600E9E5A9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		315DBAEC1D96207600E9E5A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		315DBAED1D96207600E9E5A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		315DBAEF1D96207600E9E5A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SshProxySwitcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsl.SshProxySwitcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		315DBAF01D96207600E9E5A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SshProxySwitcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsl.SshProxySwitcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		315DBAF21D96207600E9E5A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SshProxySwitcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsl.SshProxySwitcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SshProxySwitcher.app/Contents/MacOS/SshProxySwitcher";
+			};
+			name = Debug;
+		};
+		315DBAF31D96207600E9E5A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SshProxySwitcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsl.SshProxySwitcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SshProxySwitcher.app/Contents/MacOS/SshProxySwitcher";
+			};
+			name = Release;
+		};
+		315DBAF51D96207600E9E5A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SshProxySwitcherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsl.SshProxySwitcherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SshProxySwitcher;
+			};
+			name = Debug;
+		};
+		315DBAF61D96207600E9E5A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SshProxySwitcherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsl.SshProxySwitcherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SshProxySwitcher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		315DBAC61D96207600E9E5A9 /* Build configuration list for PBXProject "SshProxySwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315DBAEC1D96207600E9E5A9 /* Debug */,
+				315DBAED1D96207600E9E5A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		315DBAEE1D96207600E9E5A9 /* Build configuration list for PBXNativeTarget "SshProxySwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315DBAEF1D96207600E9E5A9 /* Debug */,
+				315DBAF01D96207600E9E5A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		315DBAF11D96207600E9E5A9 /* Build configuration list for PBXNativeTarget "SshProxySwitcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315DBAF21D96207600E9E5A9 /* Debug */,
+				315DBAF31D96207600E9E5A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		315DBAF41D96207600E9E5A9 /* Build configuration list for PBXNativeTarget "SshProxySwitcherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315DBAF51D96207600E9E5A9 /* Debug */,
+				315DBAF61D96207600E9E5A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 315DBAC31D96207600E9E5A9 /* Project object */;
+}
